@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Abir Hasan</title>
+  <meta name="description" content="Selected work by Abir Hasan: QA test suites, computer-vision software and responsive web interfaces.">
+  <meta name="author" content="Abir Hasan">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%232f5bea'/><text x='50%25' y='56%25' font-family='Arial' font-weight='700' font-size='26' fill='white' text-anchor='middle' dominant-baseline='middle'>AH</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <a class="sr-only" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="brand" href="index.html">Abir Hasan</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch to dark mode"></button>
+        <a class="btn btn-grad btn-sm nav-cta" href="contact.html">Get in Touch</a>
+        <button class="icon-btn menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="section soft first">
+      <div class="container">
+        <div class="work-head">
+          <div>
+            <h1>Selected Work</h1>
+            <p>Quality assurance test suites, computer-vision software and responsive web interfaces, published openly on GitHub.</p>
+          </div>
+          <div class="tabs" role="group" aria-label="Filter projects">
+            <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All <span class="n"></span></button>
+            <button class="filter-btn" type="button" data-filter="testing" aria-pressed="false">QA &amp; Testing <span class="n"></span></button>
+            <button class="filter-btn" type="button" data-filter="ai" aria-pressed="false">AI &amp; Software <span class="n"></span></button>
+            <button class="filter-btn" type="button" data-filter="web" aria-pressed="false">Web Design <span class="n"></span></button>
+          </div>
+        </div>
+        <p class="sr-only" id="projectCount" aria-live="polite"></p>
+        <div id="projectStatus"></div>
+        <div class="masonry" id="projectGrid"><p>Loading projects…</p></div>
+      </div>
+    </section>
+    <section class="band cta">
+      <div class="container">
+        <div>
+          <h2>Need a careful tester on your team?</h2>
+          <p>I am looking for QA internships and junior testing roles. Send me a message and I will reply within a day.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="contact.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>Contact me</a>
+          <a class="btn btn-light cv-link" href="assets/Abir-Hasan-CV.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>Download CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="index.html"><span class="brand-mark">AH</span>Abir Hasan</a>
+          <p>CSE student at Daffodil International University, focused on software quality assurance and testing.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Elsewhere</h4>
+          <ul>
+            <li><a href="https://github.com/abirhasan11" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/abirhasan11/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:abir11hasan09@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span class="year">2026</span> Abir Hasan. Designed and built by me with HTML, CSS, JavaScript, jQuery and Ajax.</span>
+        <button class="to-top" type="button">Back to top</button>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" type="button" aria-label="Close project details"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/fallback-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

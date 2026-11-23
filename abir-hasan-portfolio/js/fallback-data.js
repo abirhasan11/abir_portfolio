@@ -1,0 +1,187 @@
+/* Built-in copy of data/*.json, used only when Ajax is blocked (file://). */
+window.PORTFOLIO_FALLBACK = {
+  "data/projects.json": [
+    {
+      "id": "roadsense",
+      "title": "RoadSense: AI Vehicle Detection",
+      "category": "ai",
+      "label": "AI & Software",
+      "subtitle": "Computer Vision & Traffic Analytics",
+      "featured": true,
+      "summary": "Real-time vehicle detection and traffic flow analysis pipeline that uses deep-learning object recognition to classify and track multi-lane road vehicles.",
+      "description": "RoadSense uses a deep learning object detection model to find vehicles on the road, draw a labelled box around each one, and follow traffic across multiple lanes.",
+      "highlights": [
+        "Detects and classifies vehicles such as cars, buses and trucks",
+        "Draws labelled bounding boxes on images and video frames",
+        "Built and documented in Python"
+      ],
+      "tags": [
+        "Python",
+        "Computer Vision",
+        "Object Detection",
+        "Deep Learning"
+      ],
+      "repo": "https://github.com/abirhasan11/roadsense-ai-vehicle-detection",
+      "live": "https://roadsense.ai.studio/",
+      "image": "assets/img/projects/roadsense.webp",
+      "imageW": 1080,
+      "imageH": 563
+    },
+    {
+      "id": "flight",
+      "title": "Test Case Writing (Flight Booking System)",
+      "category": "testing",
+      "label": "QA & Testing",
+      "subtitle": "Comprehensive Test Design & Verification",
+      "featured": false,
+      "summary": "Structured end-to-end SQA test case suite covering search filters, passenger workflows, seat allocation, pricing validation and negative boundary conditions for a flight booking platform.",
+      "description": "A complete test case document for a flight booking system, written from its requirements before execution.",
+      "highlights": [
+        "Test cases for flight search, passengers, seat selection, pricing and payment",
+        "Preconditions, steps and expected results for every case",
+        "Negative and boundary cases such as invalid dates and passenger limits"
+      ],
+      "tags": [
+        "Manual Testing",
+        "STLC",
+        "Test Case Design",
+        "Boundary Testing"
+      ],
+      "repo": "https://github.com/abirhasan11/SQA-assignment",
+      "live": null,
+      "image": "assets/img/projects/flight.webp",
+      "imageW": 1080,
+      "imageH": 630
+    },
+    {
+      "id": "cvmaker",
+      "title": "CV Maker AI",
+      "category": "ai",
+      "label": "AI & Software",
+      "subtitle": "Full-Stack Resume & ATS Platform",
+      "featured": false,
+      "summary": "Interactive AI-assisted CV and resume builder with live A4 print preview, multiple templates, ATS optimization scoring, bilingual editing and instant PDF export.",
+      "description": "CV Maker AI turns a simple form into a formatted CV, with AI help for writing sections and a live A4 preview of the result.",
+      "highlights": [
+        "Live A4 print preview with multiple templates",
+        "AI-assisted writing and ATS optimization scoring",
+        "Bilingual editing and instant PDF export"
+      ],
+      "tags": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "UI Engineering"
+      ],
+      "repo": "https://github.com/abirhasan11/CV-Maker-Ai",
+      "live": "https://abirhasan11.github.io/CV-Maker-Ai/",
+      "image": "assets/img/projects/cvmaker.webp",
+      "imageW": 1080,
+      "imageH": 810
+    },
+    {
+      "id": "sauce",
+      "title": "Manual Testing (SauceDemo)",
+      "category": "testing",
+      "label": "QA & Testing",
+      "subtitle": "E-Commerce Functional QA & Defect Lifecycle",
+      "featured": true,
+      "summary": "In-depth manual testing of the SauceDemo e-commerce storefront covering authentication personas, cart state persistence, checkout calculations and structured bug reporting.",
+      "description": "I tested the SauceDemo shopping site the way a QA team tests a release: wrote scenarios from its features, executed them, and logged every defect with steps to reproduce.",
+      "highlights": [
+        "Test scenarios for login personas, product list, cart and checkout",
+        "Positive, negative and edge-case coverage for each feature",
+        "Bug reports with steps, expected vs actual result, severity and priority"
+      ],
+      "tags": [
+        "Manual Testing",
+        "Bug Reporting",
+        "Jira Workflow",
+        "SDLC"
+      ],
+      "repo": "https://github.com/abirhasan11/SauceDemo_test",
+      "live": null,
+      "image": "assets/img/projects/sauce.webp",
+      "imageW": 1080,
+      "imageH": 529
+    },
+    {
+      "id": "platter",
+      "title": "Nature’s Platter",
+      "category": "web",
+      "label": "Web Design",
+      "subtitle": "Responsive Organic Storefront Interface",
+      "featured": false,
+      "summary": "Modern responsive web interface for an organic produce brand, with a clean visual hierarchy, mobile-first grids and fast utility-driven CSS layout.",
+      "description": "A front-end storefront for an organic produce brand, built to look good and stay usable on phones, tablets and desktops.",
+      "highlights": [
+        "Mobile-first responsive layout",
+        "Product sections with a clear visual hierarchy",
+        "Utility-driven styling with Tailwind CSS"
+      ],
+      "tags": [
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Responsive Design"
+      ],
+      "repo": "https://github.com/abirhasan11/assignment-3",
+      "live": "https://abirhasan11.github.io/assignment-3/",
+      "image": "assets/img/projects/platter.webp",
+      "imageW": 1080,
+      "imageH": 529
+    },
+    {
+      "id": "kids",
+      "title": "Kids Education School",
+      "category": "web",
+      "label": "Web Design",
+      "subtitle": "Educational School Portal Web Design",
+      "featured": false,
+      "summary": "Structured responsive landing page for an early-childhood school, with curriculum cards, admission calls to action and accessible campus stories.",
+      "description": "A school website that presents classes, teachers and admission details in a friendly, easy-to-scan layout.",
+      "highlights": [
+        "Curriculum cards for each program",
+        "Clear admission calls to action",
+        "Responsive grid layout with accessible markup"
+      ],
+      "tags": [
+        "HTML",
+        "CSS",
+        "Responsive Grid",
+        "UI Layout"
+      ],
+      "repo": "https://github.com/abirhasan11/assignment-2",
+      "live": "https://kidseducationschool.netlify.app/",
+      "image": "assets/img/projects/kids.webp",
+      "imageW": 1080,
+      "imageH": 529
+    }
+  ],
+  "data/education.json": [
+    {
+      "years": "2023 – 2026",
+      "degree": "B.Sc. in Computer Science and Engineering",
+      "place": "Daffodil International University",
+      "location": "Dhaka, Bangladesh",
+      "note": "Major in Software Development",
+      "result": "CGPA:3.45/4.00"
+    },
+    {
+      "years": "2018 – 2020",
+      "degree": "HSC",
+      "place": "Shahid Syed Nazrul Islam College",
+      "location": "Mymensingh",
+      "note": "",
+      "result": "GPA:5.00/5.00"
+    },
+    {
+      "years": "2013 – 2018",
+      "degree": "SSC",
+      "place": "Mohangonj Pilot Govt High School",
+      "location": "Netrakona",
+      "note": "",
+      "result": "GPA:5.00/5.00"
+    }
+  ]
+};

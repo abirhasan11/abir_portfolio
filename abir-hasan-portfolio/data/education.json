@@ -1,0 +1,26 @@
+[
+  {
+    "years": "2023 – 2026",
+    "degree": "B.Sc. in Computer Science and Engineering",
+    "place": "Daffodil International University",
+    "location": "Dhaka, Bangladesh",
+    "note": "Major in Software Development",
+    "result": "CGPA:3.45/4.00"
+  },
+  {
+    "years": "2018 – 2020",
+    "degree": "HSC",
+    "place": "Shahid Syed Nazrul Islam College",
+    "location": "Mymensingh",
+    "note": "",
+    "result": "GPA:5.00/5.00"
+  },
+  {
+    "years": "2013 – 2018",
+    "degree": "SSC",
+    "place": "Mohangonj Pilot Govt High School",
+    "location": "Netrakona",
+    "note": "",
+    "result": "GPA:5.00/5.00"
+  }
+]
